@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+This Flutter project implements a Documents Feature using the BLoC architecture and Clean Architecture principles. The app provides a centralized location for managing and displaying documents. The UI is designed to be responsive to different screen sizes.
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
