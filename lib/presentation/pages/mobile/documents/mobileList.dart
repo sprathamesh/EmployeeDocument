@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:assignment4/data/models/document.dart';
 import 'package:assignment4/presentation/widgets/tabs.dart';
 
+//document list
 class MobileListScreen extends StatelessWidget {
   final String documentType;
 

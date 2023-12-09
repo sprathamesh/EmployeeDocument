@@ -6,6 +6,7 @@ import 'package:assignment4/presentation/pages/mobile/documents/mobileTransactio
 import 'package:assignment4/presentation/bloc/documentBloc.dart';
 import 'package:assignment4/presentation/bloc/documentEvent.dart';
 
+//document screen
 class MobileDocumentScreen extends StatefulWidget {
   const MobileDocumentScreen({
     super.key,
