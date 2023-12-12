@@ -9,12 +9,12 @@ class DesktopHomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        automaticallyImplyLeading: false,//back button 
         title: const Text('Dashboard'),
         centerTitle: true,
         toolbarHeight: MediaQuery.of(context).size.width <= 400
-            ? MediaQuery.of(context).size.height * 0.06
-            : MediaQuery.of(context).size.height * 0.1,
+            ? MediaQuery.of(context).size.height * 0.06 //6%
+            : MediaQuery.of(context).size.height * 0.1, //10%
         actions: [
           Padding(
             padding: const EdgeInsets.fromLTRB(6, 8, 6, 8),//margin
@@ -38,7 +38,7 @@ class DesktopHomeScreen extends StatelessWidget {
                     style: GoogleFonts.roboto(
                         color: Colors.black,
                         fontSize: 17,
-                        fontWeight: FontWeight.w400),
+                        fontWeight: FontWeight.w400),//regular txt
                   ),
                   const SizedBox(
                     width: 2,
@@ -58,7 +58,7 @@ class DesktopHomeScreen extends StatelessWidget {
             style: GoogleFonts.roboto(
                 fontSize: 24,
                 color: Color.fromARGB(255, 34, 194, 215),
-                fontWeight: FontWeight.bold),
+                fontWeight: FontWeight.w700),//bold
           ),
         ),
       ),

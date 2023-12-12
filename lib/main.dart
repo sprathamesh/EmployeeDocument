@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:assignment4/presentation/bloc/documentBloc.dart';
 import 'package:assignment4/presentation/pages/layoutHome.dart';
 
+//acessing state of navigator
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 void main() {

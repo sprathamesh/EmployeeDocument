@@ -11,7 +11,7 @@ class DesktopLayoutScreen extends StatefulWidget {
 }
 
 class _DesktopLayoutScreenState extends State<DesktopLayoutScreen> {
-  late Widget _currentScreen;
+  late Widget _currentScreen;//late to _currentScreen initialize later 
 
   @override
   void initState() {

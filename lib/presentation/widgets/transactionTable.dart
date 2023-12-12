@@ -30,8 +30,8 @@ SizedBox transactionTable(
             headTable(text: "Action"),
           ],
         ),
-        ...documents.map(
-          (e) => TableRow(
+        ...documents.map(   //spreac opertor to spread result of map 
+          (e) => TableRow(    //e each element
             children: [
               Padding(
                 padding: const EdgeInsets.all(20),
